@@ -17,7 +17,7 @@ export default function PostsList2() {
     <div>
       <h1>Post List 2</h1>
       <ol>
-        {postsQuery.data.map(post => (
+        {postsQuery.data.map((post) => (
           <li key={post.id}>{post.title}</li>
         ))}
       </ol>
